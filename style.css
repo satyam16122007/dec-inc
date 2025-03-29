@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+#countLable{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    
+
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.Btn{
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: aqua;
+    color: rgb(15, 203, 65);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.Btn:hover{
+    background-color: aquamarine;
+    color: rgb(218, 126, 129);
+}
